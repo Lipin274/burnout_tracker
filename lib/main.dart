@@ -19,12 +19,12 @@ class MyApp extends StatelessWidget{
         return const MaterialApp(
             debugShowCheckedModeBanner: false,
             home: FruitGameWidget(),
-        ); // Closes MaterialApp
+        );
     }
 }
 // --- FRUIT LOGIC WORKER ---
 class FruitNotifier extends Notifier<String> {
-  final List<String> _fruits = ["🍎 Apple", "🍌 Banana", "🍊 Orange", "🍉 Watermelon", "🍇 Grapes"];
+  final List<String> _fruits = ["🍎 Apple", "🍌 Banana", "🍊 Orenji", "🍉 Watermelon", "🍇 Grapes"];
 
   @override
   String build(){
